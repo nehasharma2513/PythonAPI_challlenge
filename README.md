@@ -2,7 +2,7 @@
  Module 6 challenge
 
 ## WeatherPy
-The Python script is written to visualize the weather of a large number of cities across the world of varying distance from the equator using citipy library, and the OpenWeatherMap API.
+The Python script(PythonAPI_challenge/starter_code/WeatherPy) is written to visualize the weather of a large number of cities across the world of varying distance from the equator using citipy library, and the OpenWeatherMap API.
 
 The visualizations are a series of scatter plots to show the relationship between Latitude and following weather variables:
 
@@ -15,7 +15,7 @@ Linear Regression is computed for each of the above Relationships.
 
 ## VacationPy
 
-The Python script is written to perform the following steps using the Geoapify API :
+The Python script(PythonAPI_challenge/starter_code/VacationPy) is written to perform the following steps using the Geoapify API :
 
 1. Create a map that displays a point for every city in the city_data_df DataFrame 
 
@@ -24,3 +24,6 @@ The Python script is written to perform the following steps using the Geoapify A
 3. For each city in the hotel_df DataFrame, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates
 
 4. Add the hotel name and the country as additional information in the hover message for each city in the map
+
+
+Note: .gitignore file is added to o ensure that certain files(containing API keys) are not tracked by Git.
